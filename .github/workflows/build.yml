@@ -1,0 +1,22 @@
+name: Build workflow
+on: [push]
+jobs:
+  docker-image:
+    name: Build Docker image
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+      - name: Build Docker image
+        uses: docker/build-push-action@master
+        env:
+          DOCKER_BUILDKIT: 1
+          NODE_ENV: production
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          registry: docker.pkg.github.com/hiberbee/template-typescript-react-ant
+          repository: node
+          push: true
+          tags: latest
+          build_args: env=$NODE_ENV
