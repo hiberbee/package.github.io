@@ -1,0 +1,23 @@
+.ant-select-selection-search-input {
+  height: 55px;
+}
+.ant-select-selection-search input {
+  background: transparent;
+  font-size: 16px;
+  color: #2d2d2d!important;
+}
+.ant-select-selection-search ::placeholder {
+  color: #2d2d2d;
+  opacity: 0.5;
+}
+.ant-input-search {
+  border: 0;
+  background: radial-gradient(29.88% 7550.86% at 79.88% 50%, #FFE06F 0%, #FFD128 67.84%, #FFC900 100%);
+}
+.ant-input-suffix {
+  width: 100px;
+  background: white;
+}
+.ant-input-affix-wrapper {
+  padding: 0 30px;
+}

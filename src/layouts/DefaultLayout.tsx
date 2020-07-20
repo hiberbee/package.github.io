@@ -1,7 +1,6 @@
 import React from 'react'
 import { Layout, Menu } from 'antd'
 import { Link } from 'react-router-dom'
-import { QuestionCircleOutlined } from '@ant-design/icons'
 import { Logo } from 'src/components/Logo/Logo'
 import PageErrorBoundary from 'src/components/PageErrorBoundary'
 
@@ -10,13 +9,19 @@ type Props = { children?: React.ReactNode }
 export default function DefaultLayout(props: Props): React.ReactElement {
   return (
     <Layout style={{ minHeight: '100vh' }}>
-      <Layout.Header style={{ padding: '0 20px' }}>
-        <Logo />
-        <Menu selectable={false} style={{ float: 'right', marginLeft: -40 }} theme={'dark'} mode={'horizontal'}>
-          <Menu.Item icon={<QuestionCircleOutlined />}>
-            <Link to="/about">About</Link>
+      <Layout.Header>
+        <Menu defaultOpenKeys={['search']} theme={'dark'} mode={'horizontal'}>
+          <Menu.Item key={'search'}>
+            <Link to="/">Search</Link>
+          </Menu.Item>
+          <Menu.Item key={'api'}>
+            <Link to="/api">API</Link>
+          </Menu.Item>
+          <Menu.Item key={'plugins'}>
+            <Link to="/plugins">Plugins</Link>
           </Menu.Item>
         </Menu>
+        <Logo />
       </Layout.Header>
       <Layout.Content style={{ padding: 20 }}>
         <PageErrorBoundary>{props.children}</PageErrorBoundary>

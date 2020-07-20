@@ -1,0 +1,10 @@
+{
+	experimental_http3
+}
+:80 {
+	root * /var/www/html
+	header Strict-Transport-Security max-age=315360
+	header Cache-Control max-age=31536000
+	encode zstd gzip
+	file_server
+}

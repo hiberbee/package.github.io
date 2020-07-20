@@ -4,7 +4,7 @@ import { ConfigProvider, Result, Spin } from 'antd'
 import DefaultLayout from 'src/layouts/DefaultLayout'
 import 'src/components/App/App.css'
 
-const Index = lazy(() => import('../../routes/Home'))
+const Index = lazy(() => import('../../routes/Search'))
 const About = lazy(() => import('../../routes/About'))
 const NotFound = lazy(() => import('../../routes/NotFound'))
 

@@ -11,3 +11,5 @@
 /jsLibraryMappings.xml
 /deployment.xml
 /watcherTasks.xml
+/*.iml
+/modules.xml

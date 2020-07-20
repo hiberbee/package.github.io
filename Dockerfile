@@ -1,7 +1,5 @@
 ARG nodeVersion=14
-FROM node:${nodeVersion}-alpine AS node
-
-FROM node AS build
+FROM node:${nodeVersion}-alpine AS build
 WORKDIR /usr/local/src
 ARG env=production
 ENV NODE_ENV=${env}
@@ -11,10 +9,8 @@ COPY . .
 RUN yarn test --watchAll=false \
  && yarn build
 
-FROM node
-WORKDIR /usr/local/src
+FROM caddy:2
+WORKDIR /var/www/html
 COPY --from=build /usr/local/src/build .
-EXPOSE 3000
-RUN npm i -g serve
-ENTRYPOINT ["serve"]
-CMD ["serve", "-s", ".", "--listen=3000"]
+COPY Caddyfile /etc/caddy
+EXPOSE 80 443

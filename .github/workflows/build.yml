@@ -15,7 +15,7 @@ jobs:
         with:
           username: ${{ github.actor }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          registry: docker.pkg.github.com/hiberbee/template-typescript-react-ant
+          registry: docker.pkg.github.com/hiberbee/package.github.io
           repository: node
           push: true
           tags: latest

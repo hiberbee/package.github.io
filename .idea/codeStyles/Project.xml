@@ -14,6 +14,9 @@
       <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
       <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="2" />
     </JavaCodeStyleSettings>
+    <ScalaCodeStyleSettings>
+      <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+    </ScalaCodeStyleSettings>
     <TypeScriptCodeStyleSettings version="0">
       <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
       <option name="FORCE_SEMICOLON_STYLE" value="true" />
