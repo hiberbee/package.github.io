@@ -1,0 +1,34 @@
+{
+  "files": {
+    "static/js/0.e2fd1656.chunk.js": "/template-typescript-react-ant/static/js/0.e2fd1656.chunk.js",
+    "static/js/0.e2fd1656.chunk.js.map": "/template-typescript-react-ant/static/js/0.e2fd1656.chunk.js.map",
+    "main.css": "/template-typescript-react-ant/static/css/main.8788ea44.chunk.css",
+    "main.js": "/template-typescript-react-ant/static/js/main.3ca5eae0.chunk.js",
+    "main.js.map": "/template-typescript-react-ant/static/js/main.3ca5eae0.chunk.js.map",
+    "runtime-main.js": "/template-typescript-react-ant/static/js/runtime-main.ccc2dcd7.js",
+    "runtime-main.js.map": "/template-typescript-react-ant/static/js/runtime-main.ccc2dcd7.js.map",
+    "static/css/3.ba278718.chunk.css": "/template-typescript-react-ant/static/css/3.ba278718.chunk.css",
+    "static/js/3.3c1447a0.chunk.js": "/template-typescript-react-ant/static/js/3.3c1447a0.chunk.js",
+    "static/js/3.3c1447a0.chunk.js.map": "/template-typescript-react-ant/static/js/3.3c1447a0.chunk.js.map",
+    "static/js/4.0c727076.chunk.js": "/template-typescript-react-ant/static/js/4.0c727076.chunk.js",
+    "static/js/4.0c727076.chunk.js.map": "/template-typescript-react-ant/static/js/4.0c727076.chunk.js.map",
+    "static/js/5.28796f72.chunk.js": "/template-typescript-react-ant/static/js/5.28796f72.chunk.js",
+    "static/js/5.28796f72.chunk.js.map": "/template-typescript-react-ant/static/js/5.28796f72.chunk.js.map",
+    "static/js/6.25fd8423.chunk.js": "/template-typescript-react-ant/static/js/6.25fd8423.chunk.js",
+    "static/js/6.25fd8423.chunk.js.map": "/template-typescript-react-ant/static/js/6.25fd8423.chunk.js.map",
+    "index.html": "/template-typescript-react-ant/index.html",
+    "precache-manifest.26531e859d5e7adeb899a8b8ea8035c3.js": "/template-typescript-react-ant/precache-manifest.26531e859d5e7adeb899a8b8ea8035c3.js",
+    "service-worker.js": "/template-typescript-react-ant/service-worker.js",
+    "static/css/3.ba278718.chunk.css.map": "/template-typescript-react-ant/static/css/3.ba278718.chunk.css.map",
+    "static/css/main.8788ea44.chunk.css.map": "/template-typescript-react-ant/static/css/main.8788ea44.chunk.css.map",
+    "static/js/3.3c1447a0.chunk.js.LICENSE.txt": "/template-typescript-react-ant/static/js/3.3c1447a0.chunk.js.LICENSE.txt",
+    "static/media/Logo.css": "/template-typescript-react-ant/static/media/logo.1d2148f8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccc2dcd7.js",
+    "static/css/3.ba278718.chunk.css",
+    "static/js/3.3c1447a0.chunk.js",
+    "static/css/main.8788ea44.chunk.css",
+    "static/js/main.3ca5eae0.chunk.js"
+  ]
+}
