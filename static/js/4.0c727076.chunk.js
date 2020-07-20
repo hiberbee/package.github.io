@@ -1,2 +1,0 @@
-(this["webpackJsonptemplate-react-antd-ts-graphql"]=this["webpackJsonptemplate-react-antd-ts-graphql"]||[]).push([[4],{205:function(t,e,a){"use strict";a.r(e),a.d(e,"default",(function(){return c}));var n=a(0),r=a.n(n),u=a(207);function c(){return r.a.createElement(u.a.Title,null,"About Page")}}}]);
-//# sourceMappingURL=4.0c727076.chunk.js.map

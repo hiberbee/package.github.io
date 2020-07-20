@@ -1,2 +1,0 @@
-(this["webpackJsonptemplate-react-antd-ts-graphql"]=this["webpackJsonptemplate-react-antd-ts-graphql"]||[]).push([[6],{206:function(t,e,a){"use strict";a.r(e),a.d(e,"default",(function(){return u}));var n=a(0),r=a.n(n),s=a(187);function u(){return r.a.createElement(s.a,{status:"404",title:"Requested page not found"})}}}]);
-//# sourceMappingURL=6.25fd8423.chunk.js.map
